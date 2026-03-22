@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch models / Data files
+models/*.pth
+models/*.pkl
+data/*.csv
+data/*.zip
+
+# Virtual environments
+venv/
+env/
+.env/
+.venv/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+.DS_Store
+
+# Streamlit specific
+.streamlit/credentials.toml
+
+# System-generated artifacts
+*.pdf
